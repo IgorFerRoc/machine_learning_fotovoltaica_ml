@@ -1,0 +1,25 @@
+1. Acesso ao Portal
+Acesse o site oficial do INMET (Instituto Nacional de Meteorologia) através do link:https://portal.inmet.gov.br/
+
+2. Localizando a Base Histórica
+No menu superior, navegue até a aba Dados Meteorológicos e selecione a opção Banco de Dados Meteorológicos (Histórico).
+
+Dica: Você também pode ir direto para a página de downloads por este link: https://portal.inmet.gov.br/dadoshistoricos
+**OBS**: Os anos utilizados neste trabalho são os de 2021 a 2025
+
+3. Download e Extração
+Baixe os anos desejados: Clique nos links correspondentes aos anos de seu interesse (os arquivos virão no formato .zip).
+
+Descompacte os arquivos: Após o download, extraia o conteúdo. Você verá que cada ano contém centenas de arquivos CSV (um para cada estação meteorológica).
+
+4. Organização do Diretório
+Para que o código funcione corretamente, a organização das pastas é fundamental:
+
+Crie uma pasta dedicada para o projeto (ex: dados_inmet).
+
+Mova todas as pastas de interesse com os arquivos .csv extraídos para dentro dessa pasta.
+
+Atenção: No seu script, verifique se o caminho da variável que aponta para o diretório condiz exatamente com o nome da pasta que você criou.
+
+5. Execução
+Com os arquivos organizados e o caminho ajustado no script, basta rodar o código para iniciar o processamento.
