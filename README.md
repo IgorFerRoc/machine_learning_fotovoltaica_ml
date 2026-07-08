@@ -15,11 +15,10 @@ Projeto desenvolvido para a disciplina de **Machine Learning Aplicado à Engenha
 
 | Diretório / Arquivo | Descrição |
 | :--- | :--- |
-| `📁 apresentacao/` | Contém o arquivo **`Testes.pdf`** com os slides/relatório detalhando a metodologia, testes e resultados preditivos. |
-| `📁 dados/` | Pasta local destinada aos datasets brutos e tratados (vazia no repositório remoto por limitações de espaço). |
+| `📁 artigo/` | Contém o arquivo **`Previsão de Radiação Solar para Geração Fotovoltaica usando Machine Learning.pdf`** com o artigo detalhando a metodologia, testes e resultados preditivos. |
 | `📁 docs/` | Contém o guia **`Passo a passo para baixar os dados (interesse no projeto 2021 a 2025).txt`**. |
-| `📁 notebooks/` | Contém o **`Trabalho 2 Machine Learning - Fotovoltaico.ipynb`**, o Jupyter Notebook principal com o pipeline completo (Saneamento, Feature Engineering, modelos NARX, HistGradientBoosting e Ridge pós Lasso). |
-| `📄 environment.yml` | Arquivo de exportação com as configurações e dependências exatas do ambiente virtual (Conda/Anaconda) para reprodução do projeto. |
+| `📁 notebooks/` | Contém o **`Trabalho 2 Machine Learning - Fotovoltaico.ipynb`**, o Jupyter Notebook principal com o pipeline completo ( Feature Engineering, modelos NARX, HistGradientBoosting e Ridge pós Lasso). |
+| `📄 previsão_solar.yml` | Arquivo de exportação com as configurações e dependências exatas do ambiente virtual (Conda/Anaconda) para reprodução do projeto. |
 
 ---
 
@@ -27,7 +26,4 @@ Projeto desenvolvido para a disciplina de **Machine Learning Aplicado à Engenha
 
 Para garantir que não haja conflitos de versão (especialmente com a biblioteca Pandas restrita à versão 2.3.3 e os pacotes do SysIdentPy), recomendamos a utilização do gerenciador de ambientes Conda.
 
-**1. Clone o repositório:**
-```bash
-git clone [https://github.com/IgorFerRoc/machine_learning_fotovoltaica.git](https://github.com/IgorFerRoc/machine_learning_fotovoltaica.git)
-cd machine_learning_fotovoltaica
+
